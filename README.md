@@ -20,7 +20,7 @@ The objective of this project is the detection of lane lines in a video
 [Calibration_Image]: ./img/calibration.png "Camera calibration image"
 [Undistorted]: ./img/undistort.png "Undistorted image"
 
-[threshold]: ./img/warped_th.png "Threshold examples"
+[threshold]: ./img/warped_images_th.png "Threshold examples"
 
 [bird_eye]: ./img/bird_eye.png "Bird eye view"
 
@@ -64,6 +64,7 @@ An example of the undistorted image is the following:
 
 The thresholhing used in this project is based on a color threshold, which is computed using the def color_thresholds_BGR(img) or 
 def color_thresholds_RGB(img), depending on the image color space BGR or RGB.
+
 ![alt text][threshold]
 
 ### 3.c Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
