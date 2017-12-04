@@ -103,7 +103,7 @@ The results were plotted back using the inverse perspective matrix (Ainv).
 
 Provide a link to your final video output. Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!)
 
-Here is a [link to my video result](https://github.com/CarlosLF/P4_Line_Detection/video_result.mp4)
+Here is a [link to my video result](https://github.com/CarlosLF/P4_Line_Detection/blob/master/video_result.mp4)
 
 ## 4. Discussion
 
