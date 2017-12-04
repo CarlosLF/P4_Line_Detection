@@ -105,6 +105,8 @@ Provide a link to your final video output. Your pipeline should perform reasonab
 
 Here is a [link to my video result](https://github.com/CarlosLF/P4_Line_Detection/blob/master/video_result.mp4)
 
+Here is a dropbox link [dropbox link to my video result](https://www.dropbox.com/s/ggzlxfobum4f6fm/video_result.mp4?dl=0)
+
 ## 4. Discussion
 
 The present project objective is the detection of the lane lines in real images and video.
