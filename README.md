@@ -109,9 +109,19 @@ Here is a dropbox link [dropbox link to my video result](https://www.dropbox.com
 
 ## 4. Discussion
 
-The present project objective is the detection of the lane lines in real images and video.
+Briefly discuss any problems / issues you faced in your implementation of this project. Where will your pipeline likely fail? What could you do to make it more robust?
 
-I think that one of the most challenging parts is the thresholding part, I will have to improve it to have better results with the challenge videos. I alswo think that an histogram equalization should be used also.
+The main problem of this project was the creation of a thresholded binary image. To create such binary image have to test with different color spaces (HLS,LUV, Lab). 
 
+The current algorithm is able to detect lane lines in the project_video.mp4, however is not able to deal with the challenge_video.mp4 nor the harder_challenge_video.mp4. The main reason of the fail is that no lane line points are found in the image.
 
+One of the main problems are the illumination changes, in addition to the shwadows of bridges, trees, etc. This illuminations changes are a challenge for the lane lines detection, for example if the image is to dark (night), then the color and gradient is almost lost.
+
+Improvements
+
+The video processing image can be improved by using an histogram equalization, a combination of gradient methods with color transforms.
+
+The algorithm can be improved if the detection of dashed lines is more robust, these type of lines are problematic since they are projected with a small number of pixels.
+
+The algorithm should detect and reject outliers.
 
